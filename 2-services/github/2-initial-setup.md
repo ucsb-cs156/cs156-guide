@@ -25,7 +25,7 @@ Each instance of CMPSC 156 should have its own GitHub organization. This allows 
 
 ## Step 2: Apply for GitHub Education Teacher benefits
 
-Some of the features that we use in this course require a GitHub Team plan. This would normally require a monthly fee, but as an educator, you are eligible to get this for free if you verify that you're an educator using GitHub Education. Note that you'll have to re-verify yourself every two years.
+Some of the features that we use in this course require a GitHub Team plan. This would normally require a monthly fee, but as an instructor, you are eligible to get this for free if you verify that you're an educator using GitHub Education. Note that you'll have to re-verify yourself every two years.
 
 To check if you're verified as a faculty member:
 
@@ -49,7 +49,7 @@ To check if you're verified as a faculty member:
 
 6. Click "Continue". In the next page, you'll be asked to submit proof of employment as a teacher that includes a date.
     * I personally used a "Verification of Employment" letter obtained from [UCPath](https://ucpath.universityofcalifornia.edu/).
-    * Note that you'll need to take a picture using your webcam - you won't be able to upload files. You can either print your verification and hold it up to the camera, or install a "virtual camera" on your computer such as [OBS](https://obsproject.com/).
+    * Note that you'll need to take a picture using your webcam - you won't be able to upload files. You can either print your verification and hold it up to the camera, show it on another device, or install a "virtual camera" on your computer such as [OBS](https://obsproject.com/).
 7. Submit your picture. If all goes well, you should be approved within minutes. Look for the following two emails to show that you've been approved.
 
     ![GitHub Education Emails](../../images/services/github/github-education-emails.PNG)
