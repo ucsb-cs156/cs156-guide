@@ -10,6 +10,18 @@ An example of a deployed Storybook for [ucsb-cs156/demo-spring-react-example](ht
 * [Production](https://ucsb-cs156.github.io/demo-spring-react-example-docs/)
 * [QA Docs](https://ucsb-cs156.github.io/demo-spring-react-example-docs-qa/)
 
+## Running Storybook Locally
+
+First, navigate to a project's `frontend` directory and install all Node project dependencies, including Storybook, using `npm i`. 
+
+Then, start the Storybook in development mode using `npm run storybook`.
+
+Note that Storybook is a tool to show UI changes only, and cannot make any backend API calls or interact with actual data. Any example data must be pre-filled using Stories. Because of this, **it is not necessary to start the Java backend or the React frontend to use Storybook**.
+
+Our `package.json` defines the port for Storybook to be 6006, so Storybook will be viewable by navigating to http://localhost:6006 in a web browser after running in development mode.
+
+Like running a React application in development mode, **Storybook will hot-reload any changes to components when run in development mode**. This makes it a particularly useful tool for designing UI components from scratch, as any changes made will be instantly reflected in Storybook and developers do not have to wait for an end-to-end implementation to be available to test visual changes.
+
 ## Setting Up Storybook Production and QA Builds
 
 To assist with the code review workflow, and to encourage further use of the QA and Production development lifecycle, we establish a set of GitHub Actions workflows that will automate the process of building a static Storybook build and deploying it to GitHub Pages for viewing. 
