@@ -41,8 +41,17 @@ However, this course has evolved to be much more than just "Advanced Application
 In focusing on professional software practices, we generally look for the following when choosing the tech stack for the course:
 
 * The underlying languages and frameworks are **modern** and **widely used**.
-  * This means that the languages taught here are still prevalent in much of the industry today, and students are likely to encounter it again in the future.
+  
+  This generally means that the languages taught here are still prevalent in much of the industry today, and students are likely to encounter it again in the future.
+
 * The underlying languages and frameworks are **open source**.
-  * Generally, software that is open sourced will have robust documentation, which can include Stack Overflow discussions and official bug / issue reports. These can heavily aid students' and staff's ability to debug issues.
+  
+  Generally, software that is open sourced will have robust documentation, which can include Stack Overflow discussions and official bug / issue reports. These can heavily aid students' and staff's ability to debug issues.
+
 * All languages, frameworks, and development tools must be **free to use**.
-  * All of the tools used in this class must be free to use, at least for this class. This can include free tiers that cover all class usage, or student discounts that can be applied to make paid features free (such as the GitHub Student Developer Pack).
+
+  All of the tools used in this class must be free to use, at least for this class, without the need to input a credit card. This can include free tiers that cover all class usage, or student / instructor discounts that can be applied to make paid features free (such as the GitHub Student Developer Pack).
+
+* All frameworks should be **testable through a unit testing framework**.
+
+  Through the work of former TA Scott Chow, testing is now an integral part of this course and our mission to introduce students to professional software development practices. Students are encouraged to thoroughly unit test any code they write so the codebase be more easily maintained by future iterations of the course.
