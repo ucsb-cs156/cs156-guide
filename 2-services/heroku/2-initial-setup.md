@@ -8,7 +8,7 @@ Before you can deploy apps within your new GitHub organization to Heroku, you'll
 2. When signed in, navigate to the [Heroku Dashboard OAuth Application page](https://github.com/settings/connections/applications/2bde25e3844dcbccc16d). This page will only appear if you've previously used OAuth to authorize in Heroku Dashboard.
     * The page should look like this:
 
-    ![Heroku OAuth Application page](../../images/services/heroku/heroku-oauth-app-page.PNG)
+        ![Heroku OAuth Application page](../../images/services/heroku/heroku-oauth-app-page.PNG)
 
 3. Under "Organization access", find your class GitHub organization and click "Grant". Enter your password if prompted.
     

@@ -2,6 +2,23 @@
 
 Most, if not all, professional software teams incorporate some sort of testing into the products that they build and maintain. Testing is crucial to ensuring that all parts of an application work when deployed, and can act as a first point of defense for any issues that arise during development.
 
+## Why Incorporate Testing?
+
+Testing is not a new concept to students at this stage of the UCSB CS curriculum. Students should have been introduced to tests and test-driven-development (TDD) in introductory classes such as CMPSC 16, but in these classes, testing is often viewed in a different light:
+
+* Test cases are often provided by instructors as part of an assignment or autograder test suite.
+* Students are encouraged to write their own test cases, but are not required to submit them for a grade.
+* Because of this, testing in introductory courses is often seen by students as a "goal", where a completely-passing test suite marks the end of the assignment.
+
+CMPSC 156 incorporates testing in a manner similar to testing in a professional environment for a long-term project, mainly due to this class's focus on learning *soft skills* instead of foundational CS concepts. In CMPSC 156:
+
+* Tests in CMPSC 156 are entirely written by the students as part of the normal software development process. Testing is never an "after-thought" - students write tests as they develop code and are encouraged to follow the TDD workflow.
+* Students are introduced to multiple types of testing used in industry (see below) and practice them by writing unit tests and test plans in PRs.
+* Testing is accomplished using professional testing frameworks, instead of simple one-off scripts.
+* Testing is enforced through CI/CD tools and code coverage tools, both of which are absent from many introductory courses.
+
+## Types of Testing
+
 Here are some of the types of testing used in professional teams:
 
 * **Unit Testing**
@@ -33,7 +50,7 @@ As mutation testing is used to detect inadequate unit testing in a project codeb
 
 The introduction of complete unit testing, code coverage, and mutation testing, is mainly thanks to work done by Scott Chow as part of his Masters project, "Teaching Testing with Modern Technology Stacks in Undergraduate Software Engineering Courses". Other CS 156 students have built on Scott's work, including Jayleen Li and Cole Bergmann.
 
-*(Link Scott's paper or presentation here maybe?)*
+*(TODO: Link Scott's paper or presentation here maybe?)*
 
 ## Manual End-to-End Testing in CMPSC 156
 
