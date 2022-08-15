@@ -4,6 +4,8 @@ Codecov is a service that aggregates code coverage metrics for software codebase
 
 In enforcing code coverage thresholds, Codecov reports two types of statuses: "Project" statuses, which compares overall project coverage, and "Patch" status, which only looks at code coverage for changed lines in a pull request.
 
+Learn more about Codecov on their [website homepage](https://about.codecov.io/).
+
 ## Codecov in CMPSC 156
 
 Codecov is used in CMPSC 156 to:
@@ -55,13 +57,123 @@ Codecov is free for open-source (public) projects. but is paid for private proje
 
 To ensure that we do not exceed our private user quota reserved for staff without a student affiliation, **staff will need to manually validate students** as they register for Codecov to make sure they have correctly signed up. We make use of the [#help-codecov channel](../slack/3-channels.md#help-codecov) in Slack to facilitate such requests to activate students.
 
-Instructions to validate students are listed in the [Codecov Initial Setup document](3-codecov-initial-setup.md). 
+Instructions to validate students are listed in the [Codecov Initial Setup document](3-codecov-initial-setup.md#verifying-github-students).
 
-## Setting Up Codecov Repos
+## Setting Up Repositories in Codecov
 
-### Default Branch
+A few things should be done / checked when setting up a repository for the first time. These are usually left for the students to complete as a setup task.
 
-### GitHub Actions `CODECOV_TOKEN` for private repos
+### Set GitHub Actions `CODECOV_TOKEN` for private repos
 
-### Codecov README Badge
+Any public repositories in your organization will automatically be set up in Codecov along with the first coverage upload in a GitHub Actions coverage run. Public repositories do not need a Codecov token to function.
 
+Private repositories, however, need a Codecov token when uploading coverage reports to Codecov. This value can be obtained from the Codecov interface, and set as a repository secret within the GitHub repo for use in Actions runs.
+
+**Note that this can only be performed by repository admins**. For programming and team assignments, students will generally have admin access to their repositories. Students won't be admins of the legacy code project repos, but those should already be public, and therefore do not need a token.
+
+1. Visit your repository's page in Codecov.
+    * You can navigate to it directly by substituting your organization and repository name into the following link:
+
+        ```
+        https://app.codecov.io/gh/ucsb-cs156-xxx/private-repo-name
+        ```
+
+    * You can also navigate to this page by visiting the [Codecov dashboard](https://app.codecov.io/gh), selecting your organization, selecting "Not yet setup" on the top right (above the table), and then selecting your repository.
+
+2. You should be taken to a setup page titled "Let's get your repo covered". Under "Step 2", copy your Codecov token value by clicking on the blue clipboard. The token takes the format of a UUID.
+
+    ![Codecov Copy Token](../../images/services/testing/codecov-copy-token.PNG)
+
+3. Navigate to your project repository's Settings page.
+4. On the left sidebar, under "Security", click "Secrets" and then "Actions".
+5. On the top right, next to "Actions secrets", click "New repository secret".
+
+    ![New Repository Secret Button](../../images/services/testing/codecov-new-repo-secret-button.PNG)
+
+6. Under "Name", enter `CODECOV_TOKEN`.
+7. Under "Value", paste your Codecov token value from above. Ensure that there are no extra characters or line breaks.
+
+    ![Add Codecov Token](../../images/services/testing/codecov-token-paste-value.PNG)
+
+8. Click "Add secret" to save the new token value.
+
+### Establish Base Coverage Report
+
+Now that the `CODECOV_TOKEN` has been set, in order for pull request coverage status to have a baseline to compare to, we need establish a base coverage report for what's currently on top of the `main` branch.
+
+If a repository is initialized from a template using either GitHub's template feature or push of an existing repo to the new empty repository, and the codebase already has the GitHub Actions workflows found in the latest [demo-spring-react-example](https://github.com/ucsb-cs156/demo-spring-react-example) included, then an initial GitHub Actions run will generate a base coverage report for you. You won't need to follow the steps below.
+
+However, if you *transfer an existing repository* into the organization instead of initializing a new one, you'll need to establish a new base coverage report, since coverage reports from the previous repository owner / name will not transfer over. (In other words, Codecov has no way of knowing you transferred the repository.)
+
+To establish (or re-establish) a base coverage report:
+
+1. Navigate to your project repository on GitHub.
+2. On the repository navigation bar, select the "Actions" tab.
+
+    ![GitHub Actions tab](../../images/services/development-tools/github-actions-tab.PNG)
+
+3. Run the *Java Jacoco* workflow.
+   1. On the left sidebar, select the Actions workflow titled `12-backend-jacoco: Java Test Coverage (Jacoco)`
+   2. In the blue dialog that states "This workflow has a `workflow_dispatch` event trigger.", click on "Run workflow", then "Run workflow" again.
+
+       ![Run Workflow Button](../../images/services/github/github-actions-run-workflow.PNG)
+
+   3. The workflow to run the Java backend coverage report will now run in the background and take approximately one minute.
+
+4. Run the *JavaScript Jest* workflow.
+   1. On the left sidebar, select the Actions workflow titled `32-frontend-coverage: Frontend Coverage (JavaScript/Jest)`
+   2. In the blue dialog that states "This workflow has a `workflow_dispatch` event trigger.", click on "Run workflow", then "Run workflow" again.
+   3. The workflow to run the JavaScript frontend coverage report will now run in the background and take approximately two minutes.
+
+5. After both runs finish, and the Actions log shows a successful coverage upload, return to the Codecov dashboard and ensure that the `main` branch head's commit hash appears with a coverage report.
+
+### Set Codecov's Default Branch
+
+On October 1, 2020, GitHub announced that [the default branch for any newly-created repositories is now `main`](https://github.blog/changelog/2020-10-01-the-default-branch-for-newly-created-repositories-is-now-main/), moving away from the previous default `master` to create a more inclusive environment. However, Codecov occasionally has trouble picking up the new branch name, and will sometimes set its default branch to `master`. If this is the case, the repository dashboard page on Codecov will appear as though it has not been set up, even though coverage reports successfully upload.
+
+Before following these steps, ensure that at least one Codecov coverage upload has successfully completed.
+
+To change or verify that the default branch is `main` in Codecov:
+
+1. Visit your repository's page in Codecov.
+    * You can navigate to it directly by substituting your organization and repository name into the following link:
+
+        ```
+        https://app.codecov.io/gh/ucsb-cs156-xxx/private-repo-name
+        ```
+
+    * You can also navigate to this page by visiting the [Codecov dashboard](https://app.codecov.io/gh), selecting your organization, selecting "Not yet setup" on the top right (above the table), and then selecting your repository.
+
+2. In the dashboard navigation bar, on the right, click the "Settings" tab.
+
+    ![Codecov Settings Tab](../../images/services/testing/codecov-settings-tab.PNG)
+
+3. Under "Default Branch", ensure that `main` is selected in "Branch Context".
+
+After updating the default branch, the main dashboard page should now show a proper code coverage report.
+
+### Add Codecov README Badge
+
+Codecov allows users to create status badges for Codecov repositories that can be added to a project website or README file. This badge allows users to see the unit test coverage for the entire project and navigate to the repository's Codecov page by clicking the badge.
+
+The badge is provided in both Markdown and HTML format. We will use the Markdown format to add the badge to the README file.
+
+1. Visit your repository's page in Codecov.
+    * You can navigate to it directly by substituting your organization and repository name into the following link:
+
+        ```
+        https://app.codecov.io/gh/ucsb-cs156-xxx/private-repo-name
+        ```
+
+    * You can also navigate to this page by visiting the [Codecov dashboard](https://app.codecov.io/gh), selecting your organization, selecting "Not yet setup" on the top right (above the table), and then selecting your repository.
+
+2. In the dashboard navigation bar, on the right, click the "Settings" tab.
+
+    ![Codecov Settings Tab](../../images/services/testing/codecov-settings-tab.PNG)
+
+3. On the left sidebar, click on "Badges & Graphs".
+4. Under "Codecov badge" and "Markdown", copy the value by clicking on the blue clipboard on the right.
+
+    ![Codecov Badge Markdown](../../images/services/testing/codecov-badge-markdown.PNG)
+
+5. Paste the text contents just below the first header in the repository's `README.md` file and commit the change.

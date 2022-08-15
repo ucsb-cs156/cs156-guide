@@ -43,7 +43,7 @@ Before setting up branch protections, let the Actions workflows run through at l
 To set up branch protections:
 
 1. Navigate to your project repository's Settings page.
-2. On the left sidebar, under "Code and automation" click "Branches".
+2. On the left sidebar, under "Code and automation", click "Branches".
 3. Next to "Branch protection rules", click "Add rule".
 
     ![Branch protection rules setup](../images/services/github/github-branch-protection-rules-add.PNG)

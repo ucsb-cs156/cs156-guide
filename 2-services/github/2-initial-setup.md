@@ -121,9 +121,9 @@ As part of our efforts to encourage students to be thorough in their code review
 
 Examples of issue templates are viewable in [this GitHub repository](https://github.com/alu-classroom-test/.github). These are slightly modified from the Spring 2022 instance of CMPSC 156.
 
-Issue and pull request templates can be set up at the organization level. Placing templates here allows them to be usable in every legacy code project codebase without having to configure each one individually.
+We will set up the issue and pull request templates at the organization level. Placing templates here allows them to be usable in every legacy code project codebase without having to configure each one individually. 
 
-To set up the templates at the repository level:
+To set up the templates at the organization level:
 
 1. In the organization, create a repo titled `.github`.
    * If you plan to manually copy and paste files into the repo, initialize it with a README.md. The rest of the steps assume this option.
@@ -145,6 +145,8 @@ To set up the templates at the repository level:
 ```
 
 7. Commit your changes to the repository's `main` branch.
+
+To override templates at the repository level later on, follow the same steps above, but inside of the desired repository instead of in the special `.github` repo.
 
 ## Next Steps
 
