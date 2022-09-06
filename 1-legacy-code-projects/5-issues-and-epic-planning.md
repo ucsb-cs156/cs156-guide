@@ -1,3 +1,5 @@
+[Back to: 1-legacy-code-projects/0-outline.md](0-outline.md)
+
 # Issues and Epic Planning
 
 GitHub Issues allows project teams to track work that needs to be completed for a linked project. Individual issues can be filed by developers to suggest new features and fix existing bugs, and groups of related issues can be grouped together into "epics" using Milestones or GitHub Projects. Issues is heavily integrated into the GitHub workflow and provides functionality comparable to other professional issue management and ticketing tools used in industry, such as Jira.
