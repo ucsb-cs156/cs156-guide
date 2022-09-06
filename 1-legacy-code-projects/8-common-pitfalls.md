@@ -1,3 +1,5 @@
+[Back to: 1-legacy-code-projects/0-outline.md](0-outline.md)
+
 # Common Pitfalls
 
 Staff often see students make the same mistakes in each iteration of the course. This document aims to outline some of those, along with how they are typically resolved, so staff can easily detect and avoid them in the future.
