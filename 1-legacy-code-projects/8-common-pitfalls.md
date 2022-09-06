@@ -1,4 +1,9 @@
-[Back to: 1-legacy-code-projects/0-outline.md](0-outline.md)
+---
+layout: default
+title: Common Pitfalls
+parent: Legacy Code Projects
+nav_order: 8
+---
 
 # Common Pitfalls
 

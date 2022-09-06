@@ -1,4 +1,9 @@
-[Back to: 1-legacy-code-projects/0-outline.md](0-outline.md)
+---
+layout: default
+title: Issues and Epic Planning
+parent: Legacy Code Projects
+nav_order: 5
+---
 
 # Issues and Epic Planning
 

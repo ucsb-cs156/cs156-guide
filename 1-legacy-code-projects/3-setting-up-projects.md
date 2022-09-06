@@ -1,5 +1,9 @@
-[Back to: 1-legacy-code-projects/0-outline.md](0-outline.md)
-
+---
+layout: default
+title: Setting Up Legacy Code Projects
+parent: Legacy Code Projects
+nav_order: 3
+---
 # Setting Up Legacy Code Projects
 
 ## demo-spring-react-example (aka the Tech Stack MVP)
