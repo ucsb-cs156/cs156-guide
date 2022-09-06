@@ -7,7 +7,6 @@ permalink: /legacy-code-projects
 has_children: true
 ---
 
-
 1. Introduction
    1. What is a legacy code project
    2. What's the motivation for this? Why?

@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Introduction"
+nav_order: 1
+parent: Gauchospace
+---
+
+
 # GauchoSpace
 
 [GauchoSpace](https://gauchospace.ucsb.edu/courses/) is UCSB's Learning Management System (LMS), built on the Moodle platform. While GauchoSpace is often used as a home for all course material in other courses, we do not place any course content on the GauchoSpace page aside from GauchoCast videos, as all course information is publicly available on our [website](https://ucsb-cs156.github.io/).

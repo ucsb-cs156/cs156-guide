@@ -1,4 +1,11 @@
-This is: [2-services/0-outline.md](2-services/0-outline.md)
+---
+layout: default
+title: "Services"
+nav_order: 2
+description: "Outline of services topics"
+permalink: /services
+has_children: true
+---
 
 * [development-tools](development-tools)
 * [gauchospace](gauchospace)
@@ -7,3 +14,13 @@ This is: [2-services/0-outline.md](2-services/0-outline.md)
 * [heroku](heroku)
 * [slack](slack)
 * [testing](testing)
+
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>

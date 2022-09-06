@@ -1,3 +1,10 @@
+---
+layout: default
+title: "VS Code"
+nav_order: 1
+parent: Development Tools
+---
+
 # Visual Studio Code
 
 Microsoft's [Visual Studio Code](https://code.visualstudio.com/) is a free and open-source code editor built on Chromium. It includes built-in support for a variety of languages and tools, including all of those used in this class (JavaScript, React, Java, SQL, git / GitHub) and has a large catalog of extensions that can be installed to provide additional framework support or otherwise enhance the development experience.

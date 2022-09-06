@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Storybook"
+nav_order: 2
+parent: Development Tools
+
+---
+
 # Storybook
 
 Storybook is an open-source development tool for React applications. Storybook allows components and pages to be isolated and "mocked" in development environments without needing to launch the entire application. Storybook also acts as a "library" for all of a project's React components through the use of "stories". Storybook runs on Node separately from the React frontend, and can also be built into a static webpage and deployed to a hosting site such as GitHub Pages.

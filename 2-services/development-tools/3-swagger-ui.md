@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Swagger UI"
+nav_order: 3
+parent: Development Tools
+---
+
+
 # Swagger UI
 
 Swagger UI is a development tool for backend REST APIs. Swagger UI allows a service's API endpoints to be visualized, documented, and experimented with in a web browser, with minimal setup code. Developers can try out project API endpoints with custom parameters without the need to set up additional tools such as Postman, as well as document such APIs for future visitors and developers.

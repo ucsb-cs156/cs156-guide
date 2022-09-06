@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Initial Setup"
+nav_order: 2
+parent: Gauchospace
+---
+
+
 # Initial Setup
 
 ## Initial Student Email
