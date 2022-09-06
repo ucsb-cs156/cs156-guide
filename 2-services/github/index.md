@@ -1,14 +1,12 @@
 ---
 layout: default
-title: "Gauchospace"
-nav_order: 2
-description: "Outline of Gauchospace"
+title: "GitHub"
+nav_order: 3
+description: "Outline of GitHub"
 has_children: true
-has_toc: true
+has_toc: false
 parent: Services
 ---
-
-# {{ page.title }}
 
 <details open markdown="block">
   <summary>

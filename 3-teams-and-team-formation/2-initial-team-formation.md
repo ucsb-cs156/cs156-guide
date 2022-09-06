@@ -1,3 +1,10 @@
+---
+layout: default
+title: Initial Team Formation
+parent: Teams and Team Formation
+nav_order: 2
+---
+
 # Initial Team Formation
 
 The team formation process starts as soon as students are able to enroll in the course, with the goal of having teams finalized by the first lecture or discussion section. For a typical class of 72 students, we form twelve teams of six students, with four teams in each of the three discussion sections. 

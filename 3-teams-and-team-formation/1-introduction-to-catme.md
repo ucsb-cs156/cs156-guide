@@ -1,3 +1,11 @@
+---
+layout: default
+title: Introduction to CATME
+parent: Teams and Team Formation
+nav_order: 1
+---
+
+
 # CATME
 
 CATME is a set of research-based tools designed to help instructors better form and evaluate student teams. Usage of CATME in CMPSC 156 involves the following two tools:
