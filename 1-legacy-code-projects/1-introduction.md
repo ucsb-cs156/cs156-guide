@@ -1,3 +1,5 @@
+[Back to outline](0-outline.md)
+
 # Introduction to Legacy Code Projects
 
 ## What is a legacy code project?
