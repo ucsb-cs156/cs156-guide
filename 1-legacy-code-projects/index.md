@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Legacy Code Projects"
-nav_order: 0
+nav_order: 1
 description: "Outline of topics"
 permalink: /legacy-code-projects
 has_children: true
