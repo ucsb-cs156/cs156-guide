@@ -5,7 +5,7 @@ This is [1-legacy-code-projects/0-outline.md](0-outline.md)
    1. What is a legacy code project
    2. What's the motivation for this? Why?
    3. What are the current legacy code projects?
-2. Establishing Projects
+2. [Establishing Projects](2-establishing-projects.md)
    1. How are legacy projects chosen and what do we look for in projects?
    2. How do we choose the technologies that we use in this course? (Tech stack)
 3. Setting Up Projects
