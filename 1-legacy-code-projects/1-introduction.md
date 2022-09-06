@@ -2,9 +2,9 @@
 
 ## What is a legacy code project?
 
-One of CMPSC 156's main goals is to address the lack of "brownfield code development" in academia. Brownfield code development refers to development work on existing large-scale codebases, often designed to last and be built on for long periods of time. Most industry codebases exhibit brownfield development, where software developers focus their time on adding existing features to aged codebases that 
+One of CMPSC 156's main goals is to address the lack of "brownfield code development" in academia. Brownfield code development refers to development work on existing large-scale codebases, often designed to last and be built on for long periods of time. Most industry codebases exhibit brownfield development, where software developers focus their time on adding existing features to codebases that already exist, and are expected to continue to exist for an indefinite period going forward.
 
-A "legacy code project" is simply a project, developed in this course, that is maintained and iterated on by each instance of the class
+For purposes of this course, a "legacy code project" is a project that is maintained and iterated on by consecutive offerings of this course over multiple terms.
 
 For the purposes of this documentation, the terms "brownfield code" and "legacy code" are synonymous.
 
@@ -14,8 +14,7 @@ Throughout a student's time in UCSB's Computer Science curriculum, they are aske
 
 These codebases are effective for building a solid foundational CS background, and such background can be useful in industry when learning to architect a new service. Yet, many junior / entry-level software developers struggle to fit in and make meaningful progress in their first few months in industry, facing issues with communication, collaboration, scale, and more. While existing computer science curriculum excels at teaching the algorithms and design principles used to build the widely-used systems in use today, it lacks the effective teaching of many soft skills vital to software development in industry.
 
-(the craig et al stuff should go here)
-
+For more motivation for this concept, see: [Listening to Early Career Developers (Craig et al., 2008)](https://pconrad.github.io/publication/028)
 
 ## The Current Legacy Projects
 
@@ -25,7 +24,7 @@ The current legacy code projects in use in CMPSC 156, as of the Spring 2022 quar
     * A web app that utilizes UCSB APIs to provide additional functionality to the official UCSB Course Search applications.
 * Happy Cows
     * A web app / game about grazing cows on a common farm designed to simulate the tragedy of the commons.
-    * 
+    
 
 Previous legacy code project include (but are not limited to):
 
