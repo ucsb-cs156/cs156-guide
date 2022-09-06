@@ -1,4 +1,4 @@
-[Back to: 1-legacy-code-projects/0-outline.md](0-outline.md)]
+[Back to: 1-legacy-code-projects/0-outline.md](0-outline.md)
 
 # Introduction to Legacy Code Projects
 
