@@ -25,6 +25,11 @@ The current legacy code projects in use in CMPSC 156, as of the Spring 2022 quar
 * Happy Cows
     * A web app / game about grazing cows on a common farm designed to simulate the tragedy of the commons.
     
+A candidate for a new legacy code project is this MVP developed by two former LAs for CMPSC 156:
+
+* [Kanban Populator](https://github.com/brownfield-team/kanban-populator)
+    * A web app that allows copying the contents of a Kanban board from one project to another.
+
 
 Previous legacy code project include (but are not limited to):
 
