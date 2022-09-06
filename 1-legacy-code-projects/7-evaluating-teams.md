@@ -1,3 +1,5 @@
+[Back to: 1-legacy-code-projects/0-outline.md](0-outline.md)
+
 # Evaluating Student Teams
 
 One of this course's main challenges is finding an efficient and fair way to evaluate team performance for the purposes of assigning a grade. As different student teams are assigned different epics with varying levels of difficulty, it is impossible to come up with a one-size-fits-all objective rubric.
