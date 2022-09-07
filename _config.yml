@@ -1,6 +1,8 @@
 # remote_theme: just-the-docs/just-the-docs
 theme: just-the-docs
 
+title: "CS156 Guide"
+
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
