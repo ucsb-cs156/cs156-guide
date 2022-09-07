@@ -19,28 +19,26 @@ This is an outline of topics that are intended to be included in the guide, alon
 
 ## Legacy Code Projects
 
-* Choosing Legacy Code Projects (what do we look for?) 
-  Done
-  {: .label .label-green }
-* Tech Stack (current, how it has evolved, why)
+* Choosing Legacy Code Projects (what do we look for?) {% include done.html %}
+* Tech Stack (current, how it has evolved, why) {% include done.html %}
 * Application Lifecycle
   * Development, QA, Production
-* How do we set it up? (demo-spring-react-example)
+* How do we set it up? (demo-spring-react-example) {% include done.html %}
   * Staff setup before handoff to students
   * Branch protection rules
-* How do we migrate from one quarter to another?
-* How do we come up with issues and epics?
-* How do we make use of starter stories?
-* How do we introduce legacy code projects to the students?
+* How do we migrate from one quarter to another? {% include todo.html %}
+* How do we come up with issues and epics? {% include done.html %}
+* How do we make use of starter stories? {% include done.html %}
+* How do we introduce legacy code projects to the students? {% include todo.html %}
 * What do we look for in pull requests for the legacy code projects?
-  * Two reviews, one from another team member, one from staff
-  * Detailed description with linked issue
-* Grading, Point System
-  * Get to 100, points are 5, 10, or 20, depending on complexity of work
+  * Two reviews, one from another team member, one from staff {% include done.html %}
+  * Detailed description with linked issue {% include done.html %}
+* Grading, Point System {% include done.html %}
+  * Get to 100, points are 5, 10, or 20, depending on complexity of work {% include done.html %}
 * Common Pitfalls for students when approaching Legacy Code
-  * Smaller, incremental PRs instead of one giant PR
-  * Doing the wrong thing well - predictable outcomes
-    * Students often write very good code but have a flawed understanding of what the issue at hand is actually for, so they write code that has to be thrown away
+  * Smaller, incremental PRs instead of one giant PR {% include done.html %}
+  * Doing the wrong thing well - predictable outcomes {% include done.html %}
+    * Students often write very good code but have a flawed understanding of what the issue at hand is actually for, so they write code that has to be thrown away {% include done.html %}
 
 ## Services
 
