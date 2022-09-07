@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Week 1: Early Career Software Developers"
+parent: "In Class Activities"
+nav_order: 1
+---
+
+
 # Week 1: Early Career Software Developers
 
 ["Listening to Early Career Software Developers" Paper](https://pconrad.github.io/files/paper028.pdf)

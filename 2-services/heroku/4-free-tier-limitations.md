@@ -1,4 +1,17 @@
-# Heroku Free Tier Limitations
+---
+layout: default
+title: "Free Tier Limitations"
+nav_order: 4
+parent: Heroku
+grand_parent: Services
+---
+
+# {{ page.title }}
+
+
+NOTE: The following content will be obsolete as of November 28, 2022, 
+when Heroku will be [removing it's free tier](https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq)
+
 
 When selecting a tech stack for this course, we look for technologies with a free tier that can be reasonably used without needing to provide any payment information. Everything in this course must be free to use (with or without education discounts) without needing a credit card.
 

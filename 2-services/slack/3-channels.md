@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Slack Channel Layout"
+nav_order: 3
+parent: Slack
+grand_parent: Services
+---
+
 # Slack Channel Layout
 
 Throughout the quarter, a number of channels will be created to facilitate the work that the students and staff will be doing in the course. This page lists all channels, provides a brief description of each channel's purpose, and provides instructions on when to create, who to invite, and how to use each one. 

@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Introduction"
+nav_order: 1
+parent: Heroku
+grand_parent: Services
+---
+
 # Heroku
 
 Heroku is a deployment platform that allows developers to deploy stateless apps and host / run them in the cloud. In this class, Heroku is used to introduce the notion of QA and Production deployments and manage application deployments for those two environments respectively. 

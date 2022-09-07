@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Setting up a GitHub Organization"
+nav_order: 2
+parent: GitHub
+grand_parent: Services
+---
+
 # Setting up a GitHub Organization
 
 ## Step 1: Create a new GitHub Organization

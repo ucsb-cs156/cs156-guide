@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Codecov"
+nav_order: 2
+parent: Testing
+grand_parent: Services
+---
+
 # Codecov
 
 Codecov is a service that aggregates code coverage metrics for software codebases. The product allows users to see, store, and track code coverage from a variety of languages and testing frameworks, and use these metrics to provide insights and enforce checks. Through its GitHub integration, Codecov can automatically gather code coverage data from GitHub Actions CI runs, provide coverage reports directly in pull requests, and prevent code merges if coverage thresholds are not met.

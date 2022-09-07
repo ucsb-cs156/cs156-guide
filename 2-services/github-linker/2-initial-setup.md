@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Initial Setup"
+nav_order: 2
+parent: github-linker
+grand_parent: Services
+---
+
 # Setting up the UCSB CS GitHub Linker
 
 These instructions assume that you have already followed the steps to create a new GitHub organization for your desired instance of the course. The instructions can be found [here](../github/2-initial-setup.md).

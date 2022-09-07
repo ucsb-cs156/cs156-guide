@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Introductory Lessons"
+parent: "In Class Activities"
+nav_order: 2
+---
+
 # Introductory Lessons
 
 To prepare students for the team assignments and legacy code projects in this course, we hold mini-lectures about the following topics to build up enough knowledge to meaningfully contribute.

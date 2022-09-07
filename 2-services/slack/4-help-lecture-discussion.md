@@ -1,3 +1,11 @@
+---
+layout: default
+title: "#help-lecture-discussion"
+nav_order: 4
+parent: Slack
+grand_parent: Services
+---
+
 # #help-lecture-discussion
 
 Originally established in Fall 2020 by Andrew as a way to combat the large number of "Ask for Help" requests on Zoom that were only visible to the meeting host, #help-lecture-discussion is a queue for students to request help from staff member(s) during formal instruction periods. 

@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Introduction"
+nav_order: 1
+parent: GitHub
+grand_parent: Services
+---
+
 # GitHub
 
 One of the main goals of CMPSC 156 is to allow students to get acquainted with professional software development tools used in industry. One commonly used tool is GitHub, whose core product is a hosting platform for source code repositories using Git. 

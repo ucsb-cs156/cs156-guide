@@ -3,6 +3,7 @@ layout: default
 title: "Initial Setup"
 nav_order: 2
 parent: Gauchospace
+grand_parent: Services
 ---
 
 

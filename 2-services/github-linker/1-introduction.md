@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Introduction"
+nav_order: 1
+parent: github-linker
+grand_parent: Services
+---
+
 # UCSB CS GitHub Linker
 
 [ucsb-cs-github-linker.herokuapp.com](https://ucsb-cs-github-linker.herokuapp.com/)

@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Introduction"
+nav_order: 1
+parent: Slack
+grand_parent: Services
+---
+
 # Slack
 
 Slack is a business-oriented communication platform used in many software development companies. Like many other chat platforms such as Discord and Microsoft Teams, Slack allows for team communication through named channels and individual communication through Direct Messages (DMs).

@@ -1,4 +1,12 @@
-# Initial Setup
+---
+layout: default
+title: "Initial Setup"
+nav_order: 2
+parent: Slack
+grand_parent: Services
+---
+
+# {{ page.title }}
 
 This guide will walk through the process of creating a new instance of Slack, referred to as a "workspace". Slack workspaces are entirely independent of each other, so every workspace member, regardless of whether they have previously used Slack, will have the same experience with the tool.
 

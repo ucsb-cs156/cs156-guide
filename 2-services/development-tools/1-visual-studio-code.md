@@ -3,6 +3,7 @@ layout: default
 title: "VS Code"
 nav_order: 1
 parent: Development Tools
+grand_parent: Services
 ---
 
 # Visual Studio Code

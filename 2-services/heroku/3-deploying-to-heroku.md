@@ -1,4 +1,12 @@
-# Deploying Applications to Heroku
+---
+layout: default
+title: "Deploying Applications to Heroku"
+nav_order: 3
+parent: Heroku
+grand_parent: Services
+---
+
+# {{ page.title }}
 
 Heroku's robust support for almost all modern tech stacks makes deploying applications to Heroku fairly trivial, but in CMPSC 156, there is a specific structure we use for deploying team and project applications, especially for the legacy code project. This document aims to outline these procedures.
 

@@ -1,4 +1,12 @@
-# Initial Setup
+---
+layout: default
+title: "Initial Setup"
+nav_order: 2
+parent: Heroku
+grand_parent: Services
+---
+
+# {{ page.title }}
 
 Before you can deploy apps within your new GitHub organization to Heroku, you'll need to grant Heroku permission to access repositories within the org. This only needs to be done once per organization and can be done by any organization owner.
 

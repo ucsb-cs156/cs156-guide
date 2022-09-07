@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Anacapa Slack Bot"
+nav_order: 5
+parent: Slack
+grand_parent: Services
+---
+
 # Anacapa Slack Bot
 
 The Anacapa Slack Bot is an in-house Slack application developed as part of the UCSB CS GitHub Linker tool. While the Slack bot is mostly intended to be an admin / instructor tool for analyzing Slack activity, every member of the class can benefit from the "/whois" command, which can be used to identify a student's team and GitHub username.

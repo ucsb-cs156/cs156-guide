@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Codecov Initial Setup"
+nav_order: 3
+parent: Testing
+grand_parent: Services
+---
+
 # Codecov Initial Setup
 
 Before Codecov can be used within the organization, we must first grant permission to access the organization's repositories and members. This only needs to be done once per organization and can be done by any organization owner, regardless of GitHub student status.
