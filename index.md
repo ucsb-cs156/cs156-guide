@@ -19,7 +19,9 @@ This is an outline of topics that are intended to be included in the guide, alon
 
 ## Legacy Code Projects
 
-* Choosing Legacy Code Projects (what do we look for?)
+* Choosing Legacy Code Projects (what do we look for?) 
+  Done
+  {: .label .label-green }
 * Tech Stack (current, how it has evolved, why)
 * Application Lifecycle
   * Development, QA, Production
