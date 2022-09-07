@@ -2,7 +2,7 @@
 layout: default
 title: "Storybook"
 nav_order: 2
-parent: Development Tools
+parent: "Development Tools"
 grand_parent: Services
 ---
 

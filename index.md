@@ -43,14 +43,14 @@ This is an outline of topics that are intended to be included in the guide, alon
 ## Services
 
 * GitHub
-  * Organizations, Teams, and Initial Setup
-  * Student Developer Pack (and Teacher Pack)
-  * Legacy Code Project Repositories
-  * Issues and Projects (Kanban Boards)
-    * Talk about Projects Beta, how it could be incorporated?
-  * Pull Requests
-  * Actions / Secrets
-  * Pages (static website hosting)
+  * Organizations, Teams, and Initial Setup {% include in-progress.html %}
+  * Student Developer Pack (and Teacher Pack) {% include in-progress.html %}
+  * Legacy Code Project Repositories {% include in-progress.html %}
+  * Issues and Projects (Kanban Boards) {% include in-progress.html %}
+    * Talk about Projects Beta, how it could be incorporated? {% include in-progress.html %}
+  * Pull Requests {% include todo.html %}
+  * Actions / Secrets {% include todo.html %}
+  * Pages (static website hosting) {% include in-progress.html %}
 * UCSB CS GitHub Linker (Anacapa)
   * Initial Setup
   * Team Importing (and what it affects)

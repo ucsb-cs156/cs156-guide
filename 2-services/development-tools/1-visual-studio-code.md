@@ -2,7 +2,7 @@
 layout: default
 title: "VS Code"
 nav_order: 1
-parent: Development Tools
+parent: "Development Tools"
 grand_parent: Services
 ---
 
