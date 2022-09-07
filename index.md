@@ -6,7 +6,16 @@ description: "Outline of topics"
 permalink: /
 ---
 
+# About this document
+
+The CS156 Guide is a guide for the teaching staff&mdash;instructors, graduate teaching assistants (TAs) and undergraduate learning assistants (LAs) for
+[CMPSC 156](https://ucsb-cs156.github.io), a software engineering course based on legacy code taught at [UC Santa Barbara](https://ucsb.edu), and designed by [Phill Conrad](https://pconrad.github.io) 
+ 
+The first version of the guide was initially authored by Andrew Lu, as part of his MS project, during the 2021-2022 academic year.  It is maintained by Phill Conrad, and the staff (instructors, TAs and LAs) of [CMPSC 156](https://ucsb-cs156.github.io).
+
 # Outline
+
+This is an outline of topics that are intended to be included in the guide, along with the completion status of each.  
 
 ## Legacy Code Projects
 
