@@ -106,9 +106,9 @@ There are a number of settings pertaining to member privileges that we'll need t
 
 4. Edit the following values:
    1. Set the base permission to "No permission". **This step is very important.** This ensures that students can't see each others' private repositories. This value will save automatically.
-   2. Under "Repository forking", ensure that "Allow forking of private repositories" is unchecked.
-   3. Under "Repository deletion and transfer", uncheck "Allow members to delete or transfer repositories for this organization". This is to prevent issues with Codecov not properly handling scenarios where students delete a repository and re-make one with a same name. Click "Save" to save this value.
-   4. Under "Team creation rules", uncheck "Allow members to create teams". Click "Save" to save this value.
+   2. Under "Repository forking", DO NOT permit forking of private repos.  (i.e. ensure that "Allow forking of private repositories" is unchecked.)
+   3. Under "Repository deletion and transfer", ensure that members are NOT alllowed to delete or transfer repositories, i.e. uncheck the box "Allow members to delete or transfer repositories for this organization". This is to prevent issues with Codecov not properly handling scenarios where students delete a repository and re-make one with a same name. Click "Save" to save this value.
+   4. Under "Team creation rules", DO NOT allow members to create teams.  Uncheck "Allow members to create teams". Click "Save" to save this value.
 
 ## Step 5: Invite your staff as organization owners
 
