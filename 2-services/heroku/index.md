@@ -1,18 +1,10 @@
 ---
 layout: default
-title: "heroku"
+title: "Heroku"
 nav_order: 5
 description: "Outline of github-linker"
 has_children: true
-has_toc: false
+has_toc: true
 parent: Services
 ---
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
