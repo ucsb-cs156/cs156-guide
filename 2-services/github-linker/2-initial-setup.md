@@ -60,3 +60,10 @@ You'll need to wait for Phill Conrad to accept the invitation before you can pro
 
 ## Step 3: Create a course in the GitHub Linker tool
 
+When creating the course, we typically make the name of the course and the name of the organization the same, following the convention `ucsb-cs156-qxx` where `qxx` is, for example, `f22` or `s23`.
+
+The term is specified as, for example, `F22`, and the school should be `UCSB`.
+
+You may leave the boxes `Github webhooks enabled`  and `Hidden` unchecked.
+
+If there is a previous instance of the course still unhidden, now is a good time to hide it.
