@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "slack"
+title: "Slack"
 nav_order: 6
 description: "Outline of slack"
 has_children: true
