@@ -20,3 +20,8 @@ They are served via GitHub Pages at urls such as:
 1. Create the new repo
 2. Import the code from the most recent quarter
 3. Edit `_config.yml` to set the name of the quarter, and to adjust the dates on the calendar
+4. Edit `_data/navigation.yml` to add a new navigation block
+5. Copy the `_data/navigation.yml` to the previous quarter
+6. Add `current: false` to the previous quarter's `_data/navigation.yml`; this is what produces the banner that says: "Warning: This page is not for the current quarter!"
+
+
