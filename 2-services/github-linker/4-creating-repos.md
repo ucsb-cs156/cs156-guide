@@ -43,5 +43,5 @@ Check the progress on the jobs menu:
 
 then later
 
-![Uploading image.png…]()
+<img width="1292" alt="image" src="https://github.com/ucsb-cs156/cs156-guide/assets/1119017/e13a4070-4998-430f-bf0a-a645be8b8e5d">
 
