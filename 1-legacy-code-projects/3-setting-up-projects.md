@@ -46,22 +46,40 @@ In order for any of these branch protections to work correctly, **student teams 
 
 Before setting up branch protections, let the Actions workflows run through at least once. Branch protections must also be set up within one week of the most recent Actions run.
 
-To set up branch protections:
+### To set up branch protections (using a JSON):
+
+1. Navigate to the project's repository's Settings page.
+2. Under "Code and automation", click "Rules" and then "Rulesets"
+3. Click the green "New ruleset" button and "Import a ruleset"
+
+    ![Branch protection ruleset import from JSON](../images/services/github/github-branch-protection-rulesets-add.PNG)
+
+4. It will allow you to import a JSON file (make sure you have it downloaded and accessible locally from this repository: https://github.com/ucsb-cs156/rulesets/tree/main)
+5. The JSON will populate the fields and after confirming that it was imported correctly you can make sure the protections are activated by setting the enforcement status to Active.
+
+    ![Branch protection ruleset import from JSON](../images/services/github/github-branch-protection-enforcement-status.PNG)
+
+6. At the bottom of the page, click 'Save' to set the branch predictions for the repository.
+
+### To set up branch protections (from scratch):
 
 1. Navigate to your project repository's Settings page.
-2. On the left sidebar, under "Code and automation", click "Branches".
-3. Next to "Branch protection rules", click "Add rule".
+2. On the left sidebar, under "Code and automation", click "Rules" and then "Rulesets".
+3. Click "New ruleset" and "New branch ruleset".
 
-    ![Branch protection rules setup](../images/services/github/github-branch-protection-rules-add.PNG)
+    ![Branch protection rules setup](../images/services/github/github-branch-protection-new-branch-ruleset.PNG)
 
-4. Set `main` as the branch name pattern. This will apply these changes only to the `main` branch and not any student branches.
-5. Check "Require a pull request before merging". In the new options that follow, select the following options:
+4. Set `main branch protections` as the branch name pattern. This will apply these changes only to the `main` branch and not any student branches.
+5. Scroll down to the Rules and select "Restrict creations", "Restrict updates", and "Restrict deletions" for the Branch Rules.
+6. Check "Require a pull request before merging". In the new options that follow, select the following options:
    1. Check "Require approvals" and set the required number of approvals before merging to 2. This ensures that each legacy code pull request is reviewed at least once within the team and once by the staff.
    2. Check "Dismiss stale pull request approvals when new commits are pushed". This ensures that any new changes made after an existing approval are properly reviewed.
+   3. We also want to make sure the staff/code owners have code reviewed before merging:
 
-        ![Branch protection rules - Pull Requests](../images/services/github/github-branch-protection-pull-request.PNG)
+        ![Branch protection rules - Pull Requests](../images/services/github/github-branch-protection-setting-protections.PNG)
+   4. Check "Require conversation resolution before merging". This ensures that any conversations on code must be marked as "Resolved" before a merge can take place, ensuring that all feedback has been responded to.
 
-6. Check "Require status checks to pass before merging". In the new options that follow, make the following changes:
+7. Check "Require status checks to pass". In the new options that follow, make the following changes:
    1. Check "Require branches to be up to date before merging". This ensures that any new changes in the `main` (destination) branch are present in the current branch and are compatible before merging.
    2. (Recommended) Mark the following status checks as required. These will prevent pull requests from being mergeable (without administrator approval) if the following checks don't pass:
 
@@ -69,18 +87,15 @@ To set up branch protections:
         |--------------|-------------------------|
         | build | Java backend workflows (test, coverage, mutation) |
         | build (16.x) | JavaScript frontend workflows (test, coverage, mutation) |
-        | build-and-deploy (16.x) | Storybook deployment workflows |
-        | lint (16.x) | JavaScript ESLint workflow |
-        | codecov/patch | Code coverage (for diff changes only) |
+        | Build Chromatic for PR | Chromatic and Storybook deployment workflows |
+        | lint | JavaScript ESLint workflow |
 
-        ![Branch protection rules - Checks](../images/services/github/github-branch-protection-checks.PNG)
+        ![Branch protection rules - Checks](../images/services/github/github-branch-protection-status-checks.PNG)
 
-7. Check "Require conversation resolution before merging". This ensures that any conversations on code must be marked as "Resolved" before a merge can take place, ensuring that all feedback has been responded to.
 
-    ![Branch protection rules - Conversation Resolution](../images/services/github/github-branch-protection-conversation-resolution.PNG)
+9. Check "Block force pushes" and "Require code scanning results". Under "Required tools and alert thresholds", add the CodeQL tool for security alerts High or higher:
 
-8. Check "Restrict who can push to matching branches" and do NOT enter any names or teams. This ensures that students cannot push to the `main` branch directly. Although this does not affect staff, staff members should avoid pushing to the main branch whenever possible and use the pull request workflow as well.
+![Branch protection rules - Code Scanning](../images/services/github/github-branch-protection-code-scanning.PNG)
 
-    ![Branch protection rules - Direct Pushes](../images/services/github/github-branch-protection-pushes.PNG)
-
-9. Create your branch protection rules by clicking "Create" on the bottom of the page.
+10. Once the appropriate protections have been checked, click "Active" under "Enforcement status" at the top of the page.
+11. Create your branch protection rules by clicking "Save changes" on the bottom of the page.
