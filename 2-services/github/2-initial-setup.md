@@ -109,6 +109,12 @@ There are a number of settings pertaining to member privileges that we'll need t
    2. Under "Repository forking", DO NOT permit forking of private repos.  (i.e. ensure that "Allow forking of private repositories" is unchecked.)
    3. Under "Repository deletion and transfer", ensure that members are NOT alllowed to delete or transfer repositories, i.e. uncheck the box "Allow members to delete or transfer repositories for this organization". This is to prevent issues with Codecov not properly handling scenarios where students delete a repository and re-make one with a same name. Click "Save" to save this value.
    4. Under "Team creation rules", DO NOT allow members to create teams.  Uncheck "Allow members to create teams". Click "Save" to save this value.
+   5. Go to <https://github.com/organizations/ucsb-cs156-s25/settings/actions> (substituting in your org name in place of `ucsb-cs156-s25`), and scroll to `Workflow permissions`.  Select: `Read and write permissions`, like this:
+      <img width="947" alt="image" src="https://github.com/user-attachments/assets/f3868b86-ed88-4f1a-bb9e-13349bf41e07" />
+
+      
+  
+      
 
 ## Step 5: Invite your staff as organization owners
 
