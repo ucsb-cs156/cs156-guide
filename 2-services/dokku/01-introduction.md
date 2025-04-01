@@ -22,3 +22,13 @@ Heroku stopped offering a free tier, and the student tier was not particularly u
 
 Authorized users can edit a file called `/home/eci/dokku_users_list` on dokku-00.
 
+Format is:
+```
+username1,dokku-00
+username2,dokku-00
+username3,dokku-01
+...
+```
+
+Users that should be authorized for more than one machine may be listed more than once.
+
